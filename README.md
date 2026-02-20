@@ -1,14 +1,12 @@
-# Al-Newsletter
+# al-newsletter
 
-A Jekyll plugin that provides a reusable newsletter form and JS handlers.
+`al_newsletter` provides reusable newsletter form and JS handlers for `al-folio` v1.x and compatible Jekyll sites.
 
 ## Installation
 
 ```ruby
 gem 'al_newsletter'
 ```
-
-Enable in `_config.yml`:
 
 ```yaml
 plugins:
@@ -24,3 +22,12 @@ plugins:
 ```liquid
 {% al_newsletter_scripts %}
 ```
+
+## Ecosystem context
+
+- Starter examples/docs live in `al-folio`.
+- Newsletter UI/runtime behavior is owned here.
+
+## Contributing
+
+Newsletter behavior and rendering changes should be proposed in this repository.
